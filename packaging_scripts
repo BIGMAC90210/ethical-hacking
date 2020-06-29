@@ -1,0 +1,12 @@
+# MAKE SURE ALL THE PACKAGES THE PROGRAM USE ARE INSTALLED ON THE MACHINE
+# YOU ARE PACKAGING ON 
+
+# running program silently 
+# packaging programs into one executebale 
+# > pyinstaller.exe <name_of_file>.py --onefile --noconsole
+
+# if you can always packae the program on the OS system you are targeting 
+
+# to do this on linux run donwload wine 
+#> cd /wine/drive/Python2.7
+# > wine python.exe -m pip install pyinstaller 
